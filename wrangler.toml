@@ -1,0 +1,11 @@
+name = "mediafire-player"
+main = "src/index.js"
+compatibility_date = "2025-04-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[assets]
+directory = "./src/frontend"
+
+

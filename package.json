@@ -1,0 +1,16 @@
+{
+  "name": "mediafire-player",
+  "version": "1.0.0",
+  "description": "MediaFire Player - Stream media files from MediaFire direct links",
+  "main": "src/index.js",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i ./styles/tailwind.input.css -o ./src/frontend/tailwind.css --minify",
+    "dev": "wrangler dev --ip 0.0.0.0",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "wrangler": "^4.0.0"
+  }
+}
