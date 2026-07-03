@@ -64,7 +64,7 @@ This project is designed with a **bandwidth-efficient architecture** to ensure m
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/mediafire-player.git
+git clone https://github.com/sylchn/mediafire-player.git
 cd mediafire-player
 npm install
 ```
